@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url("Resources/Mimages/balanacan3.jpg");
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+nav{
+    flex: 1;
+    text-align:right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: aqua;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar li a:hover{
+    color:whitesmoke;
+    background-color: transparent;
+}
+
+.search-bar {
+    
+    margin-top: 15px;
+    display: inline-block;
+    float: right;
+  }
+  
+  .search-bar input[name="search"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+
+  
+  .search-bar button[type="submit"] {
+    font-family:'Secular One', sans-serif;
+    padding: 10px;
+    background-color:aqua;
+    color:black;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+    font-size: 15px;
+  }
+  
+.row{
+    color:white;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Bruno Ace', cursive;
+}
+.row p{
+    color:aqua;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Satisfy', cursive;
+
+}
+.row-Tcontext{
+    display: flex;
+    height: 30%;
+    align-items: center;  
+    color: antiquewhite;
+}
+
+.card{
+    width: 230px;
+    height: 260px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 1px 1px;
+    background-position: center;
+    background-size: cover;
+    float: right;
+    margin-top:-220px;
+    transition: transform 0.5s;
+    
+}
+.card:hover{
+    transform: translateY(-10px);
+
+}
+.card1{
+    background-image: url(Resources/Mimages/tourist1.jpg);
+}
+.card2{
+    background-image: url(Resources/Mimages/tourist2.jpg);
+}
+.card3{
+    background-image: url(Resources/Mimages/tourist3.jpg);
+}
+.card4{
+    background-image: url(Resources/Mimages/tourist4.JPG);
+}
+h5{
+    color:aliceblue;
+    text-shadow: 0 0 5px #999;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif
+}
+/* Hotel and Restaurant design*/
+.row-Hcontext{
+    display: flex;
+    height: 30%;
+    align-items: center;  
+    color: antiquewhite;
+}
+.Hcard{
+    width: 230px;
+    height: 260px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 1px 1px;
+    background-position: center;
+    background-size: cover;
+    float: right;
+    margin-top:-220px;
+    transition: transform 0.5s;
+}
+.Hcard:hover{
+    transform: translateY(-10px);
+
+}
+
+.Hcard1{
+    background-image: url(Resources/Mimages/hotel1.jpg);
+}
+
+.Hcard2{
+    background-image: url(Resources/Mimages/hotel2.jpg);
+}
+.Hcard3{
+    background-image: url(Resources/Mimages/restaurant1.jpg);
+}
+
+.Hcard4{
+    background-image: url(Resources/Mimages/restaurant2.jpg);
+}
+h6{
+    color:black;
+    text-shadow: 0 0 5px #999;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif
+}
+p2 {
+    color: aliceblue;
+}
+
